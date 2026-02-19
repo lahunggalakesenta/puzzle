@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #00ffff, #ff00ff);
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  text-shadow: 0 0 15px white;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 12px;
+  background: rgba(255,255,255,0.3);
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+#progress {
+  height: 100%;
+  width: 10%;
+  background: yellow;
+  border-radius: 20px;
+  transition: width 0.3s;
+}
+
+#maze {
+  margin: 20px auto;
+  display: grid;
+  gap: 3px;
+  justify-content: center;
+}
+
+.cell {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.wall { background: #333; }
+.path { background: rgba(255,255,255,0.2); }
+
+.player {
+  background: yellow;
+  box-shadow: 0 0 15px yellow;
+}
+
+.goal {
+  background: lime;
+  box-shadow: 0 0 15px lime;
+}
+
+.enemy {
+  background: red;
+  box-shadow: 0 0 15px red;
+}
+
+.coin {
+  background: gold;
+  box-shadow: 0 0 10px gold;
+}
+
+button {
+  padding: 10px 25px;
+  background: yellow;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.controls {
+  margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NEON MAZE ULTRA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>⚡ NEON MAZE ULTRA ⚡</h1>
+
+        <div class="info">
+            <div>Level: <span id="level">1</span></div>
+            <div>Time: <span id="timer">60</span>s</div>
+            <div>Score: <span id="score">0</span></div>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <div id="maze"></div>
+
+        <div class="controls">Move: W A S D</div>
+        <button onclick="restartGame()">Restart Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
